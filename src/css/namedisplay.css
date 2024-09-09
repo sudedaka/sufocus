@@ -1,0 +1,48 @@
+.name-display {
+  position: fixed;
+  top: 20px; /* Üstten 20px boşluk bırakır */
+  left: 30%; /* Soldan %50 konumlandırarak ortalar */
+  transform: translateX(-50%); /* X ekseninde elemanın genişliğinin yarısı kadar sola kaydırarak tam ortalar */
+  background: rgba(0, 0, 0, 0.5); /* Arka plan rengini ayarlar */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1001; /* Diğer elemanların üzerinde olmasını sağlar */
+  display: flex; /* İçindeki öğeleri yatayda hizalar */
+  align-items: center; /* Öğeleri dikeyde ortalar */
+  gap: 10px; /* Input ve buton arasına boşluk ekler */
+}
+
+/* Input alanı stili */
+.name-display input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-style: italic;
+  flex: 1; /* Input alanının kalan alanı kaplamasını sağlar */
+}
+
+/* Buton stili */
+.name-display button {
+  background-color: #00000034;
+  color: white;
+  border: none;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* Butonun içindeki metnin tek satırda kalmasını sağlar */
+}
+
+.name-display button:hover {
+  background-color: #00000034;
+  transform: scale(1.05);
+  border-color:#565656;
+}
+
+.name-display button:focus {
+  outline: none;
+}

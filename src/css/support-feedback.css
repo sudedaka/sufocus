@@ -1,0 +1,84 @@
+.support-container {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.8em; 
+    color: #333333; 
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1em; 
+    color: #666666; 
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.version-info {
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    font-size: 0.8em;
+    color: #888888;
+}
+
+.discord-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.discord-logo {
+    width: 120px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-top: 10px;
+}
+
+.contact-support-button {
+    display: block;
+    padding: 12px 20px;
+    width: 180px;
+    background-color: #5865f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+}
+
+.contact-support-button:hover {
+    background-color: #4a54f1;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.contact-support-button:focus {
+    outline: none;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #333333; 
+    font-size: 28px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #5865f2; 
+}

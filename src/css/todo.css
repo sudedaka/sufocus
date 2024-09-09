@@ -1,0 +1,193 @@
+.todo-container {
+  background-color: rgba(252, 252, 252, 0.5);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.button-add {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.button-add:hover {
+  color: #54bb79; 
+  transform: scale(1.1); 
+}
+
+.button-add:focus {
+  outline: none; 
+}
+
+/* Görev ekleme alanı stili */
+.task-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: calc(100% - 60px); /* İkonun genişliği kadar yer bırak */
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5); /* Arka plan rengi opaklık */
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+  outline: none;
+}
+
+/* Düzenle ve Sil butonları */
+.button-edit, .button-delete {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px; /* İkon boyutu */
+  transition: color 0.3s, transform 0.2s;
+}
+
+.button-edit {
+  color: #28a745; /* Düzenle ikonu rengi */
+}
+
+.button-edit:hover {
+  color: #218838; /* Hover durumunda renk değişimi */
+  transform: scale(1.1); /* Hover durumunda büyütme efekti */
+}
+
+.button-delete {
+  color: #dc3545; 
+}
+
+.button-delete:hover {
+  color: #c82333; /* Hover durumunda renk değişimi */
+  transform: scale(1.1); /* Hover durumunda büyütme efekti */
+}
+
+.button-delete:focus {
+  outline: none; 
+}
+
+/* Kaydet ve İptal butonları */
+.button-save, .button-cancel   {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 24px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.button-save {
+  color: #28a745;
+}
+
+.button-save:hover {
+  color: #218838;
+  transform: scale(1.1); 
+}
+
+.button-cancel {
+  color: #dc3545; 
+}
+.button-cancel:hover {
+  color: #c82333; 
+  transform: scale(1.1); 
+}
+
+.button-cancel:focus {
+  outline: none;
+}
+.button-save:focus {
+  outline: none;
+}
+
+/* Görev listesi stil */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+li {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.7); 
+}
+
+/* Tamamlanmış görevlerin stilini ayarlayın */
+li.completed {
+  text-decoration: line-through;
+  color: #a0a0a0; 
+}
+
+.task-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+/* Düzenleme kısmı */
+.edit-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-container input {
+  width: calc(100% - 80px);
+  margin-right: 10px;
+}
+
+.edit-container button {
+  margin-right: 10px;
+}
+
+.button-edit:focus {
+  outline: none;
+}
+
+.button-delete:focus {
+  outline: none;
+}
+
+.button-finish {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 24px;
+  transition: color 0.3s, transform 0.2s;
+  color: #007bff; 
+}
+
+.button-finish:hover {
+  color: #0056b3;
+  transform: scale(1.1); 
+}
+
+.button-finish:focus {
+  outline: none; 
+}

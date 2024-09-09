@@ -1,0 +1,97 @@
+/* Navbar.css */
+
+/* Sidebar */
+.off-canvas {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%; /* Sidebar width */
+  height: 100%;
+  background-color: #c9c5c5a3;
+  box-shadow: -4px 0 8px rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+}
+
+.off-canvas.open {
+  transform: translateX(0);
+}
+
+.off-canvas-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  background-color:rgba(0, 0, 0, 0.9);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 20px;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.close-btn:hover{
+  color:#c9c5c5a3;
+}
+.close-btn:focus{
+  outline:none;
+}
+.off-canvas-body {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  height: calc(100% - 50px); /* Adjust based on header height */
+}
+
+.sidebar {
+  width: 20%; /* Sidebar width */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-right: 2px solid #fbfbfb7e;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  color: #cf1515;
+  background-color: #333;
+}
+
+.content {
+  flex: 1; /* Take up remaining space */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Spotify widget stil ayarları */
+.spotify-widget {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9); /* Widget arka planı */
+  border-radius: 8px; /* Kenar yuvarlama */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Gölge efekti */
+  overflow: hidden; /* Taşmayı önleyin */
+  margin-top: 20px; /* Üstten boşluk */
+}
+
+.sidebar a svg {
+  margin-right: 8px; /* İkon ile metin arasına boşluk ekler */
+  font-size: 20px; /* İkon boyutu */
+  color: #ffffff; /* İkon rengi */
+}

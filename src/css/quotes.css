@@ -1,0 +1,83 @@
+.quotes-content {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.quotes-content h1{
+    color: #ffffff;
+}
+
+.quotes-content select {
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    cursor: pointer;
+}
+
+.quotes-content select:focus {
+    box-shadow: 0 2px 8px rgb(238, 241, 244);
+    outline: none;
+    cursor: pointer;
+}
+
+.quote-display {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+.quote-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.quote-input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+.quote-input button {
+  padding: 10px 20px;
+  border: none;
+  color: #ffffffba;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 40px;
+  font-size:18px;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quote-input button:hover{
+    background-color: #000000;
+    color: #fff;
+    transform: scale(1.05);
+    border-color:#565656;
+}
+.quote-input button:focus{
+outline:none;
+}

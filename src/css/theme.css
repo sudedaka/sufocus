@@ -1,0 +1,40 @@
+
+.background-options {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 400px; 
+  overflow-y: auto; 
+}
+
+.background-item {
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.background-option {
+  width: 150px; 
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-option:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 12px rgb(255, 255, 255);
+
+}
+
+.background-option:focus{
+  outline:none;
+}
+.background-name {
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  font-size: 14px;
+}

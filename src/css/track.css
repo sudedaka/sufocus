@@ -1,0 +1,153 @@
+.track-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.track-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.track-header h1, .track-header h4 {
+  margin: 10px 0;
+}
+
+.track-container {
+  text-align: left; /* İçerikleri sola hizala */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparan arka plan */
+  border-radius: 10px; /* Kenar yuvarlama */
+  width: 80%; /* Konteyner genişliği */
+  max-width: 600px; /* Maksimum genişlik */
+  margin: auto; /* Ortala */
+}
+
+.track-input-group {
+  margin-bottom: 20px; /* Alanlar arasında boşluk bırak */
+}
+
+.track-input-group h4, .track-input-group h5 {
+  margin: 10px 0;
+  text-align: left; /* Başlıkları sola hizala */
+}
+
+.track-input {
+  width: calc(100% - 22px); /* Genişliği kenarlık ve padding ile uyumlu hale getir */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.7); /* Transparan input arka planı */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Geçiş efektleri */
+}
+
+.track-input:hover, .track-input:focus {
+  background-color: rgba(255, 255, 255, 1); /* Hover ve focus durumunda arka plan rengini değiştir */
+  box-shadow: 0 4px 8px rgba(255, 165, 0, 0.5); /* Turuncu gölge efekti */
+  outline: none; /* Outline'ı kaldır */
+}
+
+.track-container p {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.start-now-button {
+  display: block; /* Butonu blok eleman yapar */
+  margin: 20px auto; /* Üstten ve alttan 20px boşluk, ortalamak için otomatik margin */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #fec610; /* Başlangıç rengi */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Geçiş efektleri */
+}
+
+.start-now-button:hover {
+  background-color: #fefeff; /* Hover durumunda arka plan rengini aç */
+  color: black; /* Yazı rengini değiştir */
+  box-shadow: 0 4px 8px rgba(255, 165, 0, 0.5); /* Turuncu gölge efekti */
+}
+
+.start-now-button:focus {
+  outline: none;
+}
+
+.time-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.time-button {
+  width: 50px; /* Genişlik */
+  height: 50px; /* Yükseklik */
+  background-color: transparent; /* Arka plan rengini kaldır */
+  color: #fec610; /* Metin rengi */
+  border: 3px solid #fec610; /* Kenar rengi */
+  border-radius: 50%; /* Tam yuvarlak köşeler */
+  font-size: 24px;
+  font-weight: bolder;
+  display: flex; /* İçerik hizalamayı kolaylaştırır */
+  align-items: center; /* Yatay merkezleme */
+  justify-content: center; /* Dikey merkezleme */
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  margin: 0 5px; /* Butonlar arasına biraz boşluk ekleyin */
+  padding: 0;
+}
+
+.time-button:hover {
+  color: #ffffff; /* Hover durumunda metin rengini değiştir */
+  border-color: #ffffff; /* Hover durumunda kenar rengini değiştir */
+}
+.time-button:focus {
+  outline: none;
+}
+
+.time-display {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+
+.sessions-table {
+  margin-top: 20px;
+}
+
+.sessions-table h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.sessions-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sessions-table th,
+.sessions-table td {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  text-align: center;
+  color:white;
+}
+
+.sessions-table th {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.sessions-table tr:nth-child(even) {
+  background-color: #444;
+}
+
+.sessions-table tr:nth-child(odd) {
+  background-color: #555;
+}

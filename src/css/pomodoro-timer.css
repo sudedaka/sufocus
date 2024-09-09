@@ -1,0 +1,120 @@
+.pomodoro-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .focus-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .focus-label span {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .edit-icon {
+    font-size: 24px;
+    color: #ffffff;
+    cursor:pointer;
+  }
+  
+  .timer-modes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .timer-mode-button {
+    padding: 10px 40px;
+    font-size:18px;
+    border: 2px solid #39191984;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #565656;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timer-mode-button:hover,
+  .timer-mode-button.active {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.05);
+    border-color: #000000;
+
+  }
+
+  .timer-mode-button:focus{
+    outline:none;
+  }
+  
+  .timer-display {
+    font-size: 120px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .timer-controls {
+    display: flex;
+    gap: 20px;
+  }
+
+.timer-button:focus {
+  outline: none; 
+}
+
+
+  .timer-button {
+    padding: 10px 40px;
+    font-size:18px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timer-button:hover {
+    background-color: #000000;
+    color: #fff;
+    transform: scale(1.05);
+    border-color:#565656;
+  }
+
+
+  .focus-name-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .focus-name {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
