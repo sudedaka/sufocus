@@ -11,10 +11,11 @@ import NameDisplay from './components/NameDisplay';
 import TrackTimer from './components/Track-Timer';
 import PomodoroTimer from './components/Pomodoro-Timer';
 import Music from './components/Music';
-import Streak from './components/Streak'; // Streak bileşenini import edin
+import Streak from './components/Streak'; 
+import Snow from './components/Snow';
 
 const App = () => {
-  const [background, setBackground] = useState('/backgrounds/background.png');
+  const [background, setBackground] = useState('/backgrounds/cozywinter2.jpg');
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   const [currentQuote, setCurrentQuote] = useState('');
   const [currentName, setCurrentName] = useState('');
@@ -24,6 +25,7 @@ const App = () => {
   const [sessionName, setSessionName] = useState('');
   const [time, setTime] = useState(30);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  
 
   const handleNameChange = (name) => {
     setCurrentName(name);
@@ -97,7 +99,11 @@ const App = () => {
         </>
       )}
       <div className='music-content'>
-        <Music playlistUrl="https://open.spotify.com/embed/playlist/5J7JJzMwXPceoQUpE1vb32" />
+      <Music playlistUrl="https://open.spotify.com/embed/playlist/5JgTGlc0r7Wz1UMrxCtJ2w" />
+      </div>
+
+      <div>
+        <Snow/>
       </div>
     </div>
   );
