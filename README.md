@@ -1,6 +1,8 @@
 ## Pomodoro Timer
 Bu proje, Pomodoro tekniği için bir zamanlayıcı uygulamasıdır. Kullanıcılar günlük hedeflerini belirleyebilir ve çeşitli özellikler sayesinde ilerlemelerini takip edebilirler. Uygulama, görev listesi, müzik dinleme, hedef takip sistemi, ses efektleri, motive edici alıntılar ve zinciri kırma adında bilinen sistem içerir.
 
+https://www.loom.com/share/a616c2b216d84c6eaaee91195e6ec6dd?sid=3a8507a2-f5d0-4948-992a-b6f2d3df1ed8
+
 ## Özellikler
 - *Pomodoro Zamanlayıcısı:* Pomodoro tekniğini uygulamak için zamanlayıcı.
 - *Görev Listesi (ToDo List):* Günlük görevlerinizi ekleyip düzenleyebileceğiniz bir liste.
