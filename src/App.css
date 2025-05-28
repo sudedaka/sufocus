@@ -132,8 +132,25 @@
   right: 20px;
   z-index: 1000;
   width: 400px;
-  height: 60vh;
+  height: 120px;
 }
+
+.music-widget {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 0;      /* ✨ boşlukları sıfırla */
+  margin: 0;
+  background-color: transparent;
+}
+
+.music-widget iframe {
+  display: block;  /* ✨ inline spacing sorununu önler */
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 
 /* Tooltip Konteyneri */
 .tooltip {

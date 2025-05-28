@@ -12,10 +12,10 @@ import TrackTimer from './components/Track-Timer';
 import PomodoroTimer from './components/Pomodoro-Timer';
 import Music from './components/Music';
 import Streak from './components/Streak'; 
-import Snow from './components/Snow';
+
 
 const App = () => {
-  const [background, setBackground] = useState('/backgrounds/cozywinter2.jpg');
+  const [background, setBackground] = useState('/backgrounds/background6.jpg');
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   const [currentQuote, setCurrentQuote] = useState('');
   const [currentName, setCurrentName] = useState('');
@@ -99,11 +99,11 @@ const App = () => {
         </>
       )}
       <div className='music-content'>
-      <Music playlistUrl="https://open.spotify.com/embed/playlist/5JgTGlc0r7Wz1UMrxCtJ2w" />
+    <Music playlistUrl="https://open.spotify.com/embed/playlist/7uiXzfnqDiVpX7MLgi46ep?si=3a1ac6b984de4615" />
       </div>
 
       <div>
-        <Snow/>
+    
       </div>
     </div>
   );
